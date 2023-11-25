@@ -9,3 +9,4 @@ const person1 = {
 };
 
 console.log(person1.address.City)
+console.log(person1.address.Country)
