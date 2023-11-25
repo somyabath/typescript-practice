@@ -16,3 +16,12 @@ console.log(person);
 
 console.log(person);
 
+// Array Map
+const numbers:number[] =[1,2,3,4,8]
+const doublevalue:number[] =
+numbers.map((curVal)=>curVal*5)
+console.log(doublevalue)
+const numbertToString:string[]= doublevalue.map((curval)=>curval.toString())
+console.log(numbertToString)
+const filterValue = numbers.filter((curvalue)=>curvalue>5)
+console.log(filterValue)
