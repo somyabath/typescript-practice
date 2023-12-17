@@ -8,6 +8,7 @@ type Student = {
 const student1: Student = {
   fname: "siya",
   age: 23,
+  
   class: 3,
   greet: ((country):string => `name  is  ${student1.fname} and age is ${student1.age} and class  name is ${student1.class} `)
 };
